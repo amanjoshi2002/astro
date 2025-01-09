@@ -1,6 +1,6 @@
 import Logo from "./Logo"; // Import the Logo component
 
-const Navbar = () => {
+const Navbar = ({ onLoginClick }) => {
   return (
     <nav className="flex items-center justify-between p-2 bg-transparent">
       <Logo />
@@ -10,12 +10,12 @@ const Navbar = () => {
         <a href="#" className="hover:underline">Services</a>
         <a href="#" className="hover:underline">Language</a>
       </div>
-      <a
+      <button
         className="bg-red-600 text-white rounded-full px-4 py-1"
-        href="#"
+        onClick={onLoginClick}
       >
         LOGIN
-      </a>
+      </button>
     </nav>
   );
 };
