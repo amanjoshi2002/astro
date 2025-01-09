@@ -1,6 +1,11 @@
 const SubNavbar = () => {
   return (
-    <div className="bg-gradient-to-r from-yellow-400 to-orange-500 p-4">
+    <div
+      className="p-4 z-20" 
+      style={{
+        background: "linear-gradient(to right, rgba(255, 255, 68, 1), rgba(255, 156, 44, 1))",
+      }}
+    >
       <div className="flex justify-center space-x-8 text-black">
         <a href="#" className="hover:underline">Free Kundli</a>
         <a href="#" className="hover:underline">Kundli Matching</a>
@@ -14,4 +19,4 @@ const SubNavbar = () => {
   );
 };
 
-export default SubNavbar; 
+export default SubNavbar;

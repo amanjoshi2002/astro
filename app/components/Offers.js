@@ -1,10 +1,10 @@
 const Offers = () => {
   return (
-    <div className="py-16 bg-gradient-to-b from-[#E34400] to-[rgba(255, 138, 60, 0.64)]">
+    <div className="py-20 ">
       <h2 className="text-center text-4xl font-bold text-white mb-12">GRAB OFFERS NOW</h2>
-      <div className="flex justify-center space-x-8">
+      <div className="flex justify-center space-x-40">
         <div
-          className="bg-gradient-to-b from-[#A00000] to-[#3A0000] text-white p-8 rounded-lg shadow-lg w-80"
+          className="bg-gradient-to-b from-[#A00000] to-[#3A0000] text-white p-8 rounded-lg shadow-lg w-96"
           style={{
             border: '3px solid #FFF',
           }}
@@ -13,7 +13,7 @@ const Offers = () => {
           <p>Get personalized astrology insights from expert astrologers.</p>
         </div>
         <div
-          className="bg-gradient-to-b from-[#A00000] to-[#3A0000] text-white p-8 rounded-lg shadow-lg w-80"
+          className="bg-gradient-to-b from-[#A00000] to-[#3A0000] text-white p-8 rounded-lg shadow-lg w-96"
           style={{
             border: '3px solid #FFF',
           }}
